@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange - One | Alura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./img/Logo.png" alt="logo da alura">
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo__principal">
+            <div>
+                <textarea style="text-transform: lowercase;" placeholder="Digite seu texto" name="" id="texto" cols="90" rows="25"></textarea>
+                <figure class="exclamacao__box">
+                    <img src="./img/Vector.png" alt="imagem de exclamação de um vetor">
+                    <figcaption>Apenas letras minúsculas e sem acento</figcaption>
+                </figure>
+
+                <div class="apresentacao_botoes">
+                    <button onclick="criptografar()" class="botao botao_criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="botao botao_descriptografar">Descriptografar</button>
+                </div>
+            </div>
+
+            <aside class="lateral_direita">
+                <h2 id="mensagem">Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            </aside>
+        </section> 
+    </main>
+    <footer>
+        <p>&copy; 2023 Alura. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
